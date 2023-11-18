@@ -8,7 +8,7 @@ const RecipeList = ({ recipes, searchedQuery }) => {
         <Container>
             <Header 
                 size="huge"
-                content={`RECIPE LIST FOR ${searchedQuery}`}
+                content={`Try the following recipes of ${searchedQuery}`}
                 textAlign='center'
             />
             <Grid columns={4} doubling>

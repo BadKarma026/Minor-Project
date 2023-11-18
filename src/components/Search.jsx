@@ -12,9 +12,9 @@ const Search = ({ setSearchedQuery }) => {
         <Grid column={2} textAlign="center" className='search-box'>
             <Grid.Column>
                 <h2 className='search-heading'>
-                    Search Recipes with <span style={{ color: '#2185D0' }}>Our Recipe</span>
+                    Search Recipes with <span style={{ color: '#2185D0' }}>DishDive</span>
                 </h2>
-                <h4>Input Recipes seperated by comma</h4>
+                <h4>Give us Ingredient,we'll give you the Recipe</h4>
                 <Form onSubmit={onFormSubmit}>
                     <Input 
                         placeholder="tomato,potato,pizza"

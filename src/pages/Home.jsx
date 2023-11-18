@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
 
     return (
-        <Header title="Our Recipes" bgClass="bg-image">
+        <Header title="DISHDIVE" bgClass="bg-image">
             <Button
                 content="SEARCH RECIPES"
                 color="primary"
