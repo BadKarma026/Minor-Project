@@ -34,19 +34,19 @@ const RecipeDetails = () => {
             </Grid.Column>
             <Grid.Column>
                 <Header size="medium">{recipe.title}</Header>
-                <p>Provided By: {recipe.publisher}</p>
+                {/* <p>Provided By: {recipe.publisher}</p>
                 <Button 
                     as={"a"}
                     href={recipe.publisher_url}
                     target="_blank"
                     content="Publisher Webpage"
                     color="blue"
-                />
+                /> */}
                 <Button 
                     as={"a"}
                     href={recipe.source_url}
                     target="_blank"
-                    content="Recipe URL"
+                    content="Process"
                     color="green"
                 />
                 <Header size="large" content="Ingredients" />

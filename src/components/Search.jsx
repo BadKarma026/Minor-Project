@@ -11,16 +11,17 @@ const Search = ({ setSearchedQuery }) => {
     return (
         <Grid column={2} textAlign="center" className='search-box'>
             <Grid.Column>
-                <h2 className='search-heading'>
-                    Search Recipes with <span style={{ color: '#2185D0' }}>DishDive</span>
+                <h2 className='search-heading' style={{margin:'20px'}}>
+                    Explore recipes with <span style={{ color: '#2185D0' }}>DishDive</span>
                 </h2>
-                <h4>Give us Ingredient,we'll give you the Recipe</h4>
+                
                 <Form onSubmit={onFormSubmit}>
                     <Input 
-                        placeholder="tomato,potato,pizza"
+                        placeholder="Give us Ingredient,we'll give you the Recipe"
                         action={{ icon: 'search', color: 'blue' }}
                         onChange={(e) => setValue(e.target.value)}
                         value={value}
+                        style={{ width: '290px' }}
                     />
                 </Form>
             </Grid.Column>

@@ -9,7 +9,8 @@ const RecipeListItem = ({ recipe }) => {
         <Card>
             <img src={recipe.image_url} alt="thumbnail" style={{ height: 170 }} />
             <Card.Content>
-                <Card.Header content={recipe.title} />
+                <Card.Header content={recipe.title.substring(0,25)
+                +'...'} />
                 <Card.Description>
                     <h4>{recipe.publisher}</h4>
                 </Card.Description>
@@ -25,7 +26,7 @@ const RecipeListItem = ({ recipe }) => {
                 <Button 
                     href={recipe.source_url}
                     target="_blank"
-                    content="Recipe URL"
+                    content="A way to make it "
                     color="green"
                     size="tiny"
                 />
